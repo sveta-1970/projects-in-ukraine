@@ -1,8 +1,8 @@
 import React from "react";
 import "./app.css";
-import "../header/header";
-import "../project/header";
-import "../footer/footer";
+import Header from "../header/header";
+import Project from "../project/project";
+import Footer from "../footer/footer";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Project />
         <Project />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
