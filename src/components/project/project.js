@@ -5,6 +5,7 @@ function Project() {
   return (
     <div className="Project">
       <img src="../../../images/picture.png" alt="stadium project" />
+      <p className="accent"></p>
       <h3>Арена</h3>
       <p>
         Ми зробили найкрасивішу арену в Европі. Це відкриття стало для нас точка

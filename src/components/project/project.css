@@ -1,5 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-Project p{
-  font-family: 'Open Sans', sans-serif;
+.Project {
+  text-align: left;
+  max-width: 350px;
+}
+
+.Project .accent {
+  width: 55px;
+  height: 6px;
+  background-color: #f7654a;
+  margin-top: 45px;
+}
+
+.Project h3 {
+  color: #404149;
+  font-size: 24px;
+  font-weight: 500px;
+}
+
+.Project p {
+  color: #999;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }

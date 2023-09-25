@@ -5,7 +5,7 @@
   font-family: "Oswald", sans-serif;
 }
 
-.App .promo {
+.App .promos {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -14,4 +14,21 @@
   background-color: #f7f7f7;
   max-width: 1110px;
   margin: 0 auto;
+}
+
+
+.App h2{
+  color:#404149;
+  font-size: 36px;
+  font-weight:500;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.App .projects{
+  display:flex;
+  justify-content: center;
+  gap:30px;
+  margin-bottom: 150px;
 }
