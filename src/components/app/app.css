@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap");
 
 .App {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
-p{
-  font-family: 'Open Sans', sans-serif;
+.App .promo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  top: -150px;
+  background-color: #f7f7f7;
+  max-width: 1110px;
+  margin: 0 auto;
 }
