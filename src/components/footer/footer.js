@@ -4,11 +4,11 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="Footer">
-      <div>
-        <h1>Найрозумніші проекти</h1>
+      <div className="text">
+        <h2>Найрозумніші проекти</h2>
         <small>Реалізуємо найсмилівіші рішення</small>
       </div>
-      <div>Ваш запит</div>
+      <div className="request">Ваш запит</div>
     </div>
   );
 }
