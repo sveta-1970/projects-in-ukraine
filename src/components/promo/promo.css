@@ -1,23 +1,59 @@
-.Promo{
+.Promo {
   font-weight: 500;
   margin: 57px;
 }
 
-.Promo p{
-  margin:0;
+.Promo p {
+  margin: 0;
 }
 
-.Promo p:first-of-type{
-  color: #F7654A;
+.Promo p:first-of-type {
+  color: #f7654a;
   font-size: 72px;
 }
 
-.Promo p:nth-child(2){
+.Promo p:nth-child(2) {
   text-transform: uppercase;
   font-size: 36px;
 }
 
-.Promo p:last-of-type{
+.Promo p:last-of-type {
   color: #999;
   font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .Promo {
+    margin: 30px;
+  }
+
+  .Promo p:first-of-type {
+    font-size: 56px;
+  }
+
+  .Promo p:nth-child(2) {
+    font-size: 28px;
+  }
+
+  .Promo p:last-of-type {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 570px) {
+  .Promo {
+    margin: 15px;
+  }
+
+  .Promo p:first-of-type {
+    font-size: 36px;
+  }
+
+  .Promo p:nth-child(2) {
+    font-size: 18px;
+  }
+
+  .Promo p:last-of-type {
+    font-size: 12px;
+  }
 }

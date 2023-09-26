@@ -37,3 +37,35 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+@media (max-width: 800px) {
+  .Header {
+    height: 600px;
+  }
+
+  .Header h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 470px) {
+  .Header {
+    height: 400px;
+  }
+
+  .Header h1 {
+    font-size: 36px;
+    margin-top: 70px;
+  }
+
+  .Header small{
+    font-size: 12px;
+  }
+}
+
+@media(max-width:370px){
+  .Header h1 {
+    font-size: 28px;
+    margin-top: 50px;
+  }
+}
